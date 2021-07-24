@@ -1,3 +1,7 @@
-body {
-    background-color: brown;
+.brand {
+    align-self: flex-start;
+}
+
+.links {
+    align-self: flex-end;
 }
