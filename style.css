@@ -1,3 +1,6 @@
+body {
+    background-color:#57a3da ;
+}
 .brand {
     align-self: flex-start;
 }
@@ -5,3 +8,40 @@
 .links {
     align-self: flex-end;
 }
+
+.holder {
+    width: 100%;
+    height: 100vh;
+    background: url("hotelview.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-heading {
+    color: #fff;
+    line-height: 1;
+    text-shadow: 1px 1px 1rem rgba(0, 0, 0, .5);
+    margin-bottom: 2.5rem;
+}
+.title {
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    font-size: 3.6rem;
+    font-weight: 300;
+    
+}
+
+.btn {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .5rem 3.5rem
+}
+
