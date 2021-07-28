@@ -7,13 +7,14 @@
     <title> LIYUN</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="hotelview.jpg">
+    <link rel="stylesheet" href="./images/hotelview.jpg">
+    <link rel="stylesheet" href="./images/featured1.jpg">
     <link rel="stylesheet" href="logo.png">
 </head>
 <body>
     <header>
        <div class="navbar" style="display: block; padding: 0;"> 
-        <nav class="navbar navbar-expand-lg navbar-light \" style="background-color: #57a3da;">
+        <nav class="navbar navbar-expand-lg navbar-light \" style="background-color: #5897d3;">
             <div class="container-fluid">
               <div class="brand">
                 <a class="navbar-brand" href="index.html">
@@ -53,11 +54,99 @@
                 <h1 class="title">Uncover</h1>
                 <h2>LIYUN Hotels and Suites</h2>
                 <a href="#">
-                    <button type="button" class="btn btn-warning btn-gradient">Discover Now</button>
+                    <button type="button" class="btn btn-success ">Discover Now</button>
                 </a>
             </div>
          </div>
      </div>   
+    <section class="booking">
+        <div class="box">
+
+            <form class="row gy-2 gx-3 align-items-center" style="background-color: #212529;">
+                <div class="col-auto">
+                  <label class="visually-hidden" for="autoSizingInput">ARRIVAL</label>
+                 <input type="text" placeholder="ARRIVALS"
+                  onfocus="(this.type='date')"
+                  onblur="(this.type='text')" class="form-control" id="autoSizingInput">
+                </div>
+                <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingInput">DEPARTURE</label>
+                    <input type="text" placeholder="DEPARTURE"
+                        onfocus="(this.type='date')"
+                        onblur="(this.type='text')" class="form-control" id="autoSizingInput">
+                  </div>
+                  <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingInput">ADULTS</label>
+                    <input type="number" class="form-control" id="autoSizingInput" placeholder="ADULTS (numerical)">
+                  </div>
+                  <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingInput">CHILDREN</label>
+                    <input type="number" class="form-control" id="autoSizingInput" placeholder="CHILDREN (numerical)">
+                  </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-success">BOOK ONLINE</button>
+                </div>
+              </form>
+
+            <section class="hotels">
+                <div class="boxed" style="background-color: #212529;" >
+                    <h5 class="section-head">
+                        <span class="heading">Explore</span>
+                        <span class="sub-heading">Our luxurius domain</span>
+                    </h5>
+                    <div class="grid">
+                        <div class="grid-item featured-parts"></div>
+                        
+
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="images/featured1.jpg" class="img-fluid rounded-start" alt="featured">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title text-muted">Top tier </h5>
+                              <p class="card-text text-muted">Our Top tier, state of the art lobby designed to keep you calm and comfortable as you check in.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="images/featured2.jpg" class="img-fluid rounded-start" alt="featured">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title text-muted">Top tier </h5>
+                              <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="images/featured3.jpg" class="img-fluid rounded-start" alt="featured">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title text-muted">Top tier </h5>
+                              <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </section>
+        </div>
+
+    </section>
     </main>
 </body>
 </html>
