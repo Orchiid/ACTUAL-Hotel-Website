@@ -2,29 +2,71 @@ body {
     background-color:#57a3da ;
 }
 .brand {
-    align-self: flex-start;
+   width: 30%;
 }
 
 .links {
-    align-self: flex-end;
+    width: 70%;
+   
+    justify-content: flex-end;
 }
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.burger {
+    width: 60px;
+    height: 40px;
+    padding: 5px 12px;
+
+}
+.burger div {
+    background-color: #fff;
+    width: 22px;
+    height: 3px;
+    margin: 5px;
+}
+
 
 .holder {
     width: 100%;
     height: 100vh;
     background: url("images/hotelview.jpg") center no-repeat;
     background-size: cover;
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
+    position: relative;
+    
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    top: 0;
+    width: 100%;
 }
 
 .main-heading {
     color: #fff;
     line-height: 1;
     text-shadow: 1px 1px 1rem rgba(0, 0, 0, .5);
-    margin-bottom: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
 }
 .title {
     font-size: 4.8rem;
